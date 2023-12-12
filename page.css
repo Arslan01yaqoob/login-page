@@ -1,0 +1,106 @@
+/* first page */
+.first-page {
+    background-color: #f9e6e6;
+    height: 700px;
+}
+
+.name {
+    color: red;
+
+}
+
+/* button */
+.btn1 {
+    background-color: blue;
+    color: #ffff;
+    border: none;
+    width: 100px;
+    border-radius: 6px;
+    height: 35px;
+    font-weight: 500;
+}
+
+.btn1:hover {
+    background-color: #ffff;
+    color: blue;
+    border: 3px solid blue;
+}
+
+.welcome {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.with-google {
+    width: 350px;
+    height: 40px;
+    background-color: #ffa3be;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.icon {
+    height: 30px;
+}
+
+.line {
+    width: 350px;
+}
+
+hr {
+    width: 90px;
+    /* Set the line width */
+    height: 2px;
+    /* Set the line thickness */
+    background-color: #333;
+    /* Set the color of the line */
+    margin: 10px auto;
+    /* Center the line within its specified width */
+}
+
+.line-txt {
+    font-size: 10px;
+    margin-top: 7px !important;
+}
+
+.getting-name {
+    background-color: #ffa3be;
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.eye-icon {
+    margin-left: -30px;
+}
+
+.forgot-text {
+    font-size: 14px;
+    margin-left: 50px;
+
+    color: blue;
+}
+
+.btn2 {
+    width: 350px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.btn2:hover {
+    background-color: white;
+    color: blue;
+    border: 3px solid blue;
+}
+
+.last-three-words {
+    color: blue;
+}
