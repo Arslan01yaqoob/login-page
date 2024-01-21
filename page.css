@@ -1,12 +1,16 @@
 /* first page */
 .first-page {
     background-color: #f9e6e6;
-    height: 700px;
+    height: 100vh;
+}
+
+.nav{
+    display: flex;
+justify-content: space-between;
 }
 
 .name {
     color: red;
-
 }
 
 /* button */
@@ -14,9 +18,9 @@
     background-color: blue;
     color: #ffff;
     border: none;
-    width: 100px;
+    width: 10vw;
     border-radius: 6px;
-    height: 35px;
+    height: 5.5vh;
     font-weight: 500;
 }
 
@@ -37,7 +41,8 @@
     background-color: #ffa3be;
     border: none;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 10
+    px;
 }
 
 .icon {
@@ -103,4 +108,21 @@ hr {
 
 .last-three-words {
     color: blue;
+}
+
+
+@media (max-width:600px) {
+
+    .btn1 {   
+        width: 13vw;
+    }    
+.first-page>.col-5{
+    display: none;
+}
+
+
+.eye-icon {
+    display: none !important;
+}
+
 }
